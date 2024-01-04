@@ -1,50 +1,41 @@
 {
-  "hash": "1698f8b2",
-  "browserHash": "08ff95af",
+  "hash": "a33bd5af",
+  "browserHash": "77a66081",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "d2ccee4c",
+      "fileHash": "1281eded",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "523ed366",
+      "fileHash": "9ac7fbb3",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d0deffad",
+      "fileHash": "4cf16223",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "4a501694",
+      "fileHash": "4905eb39",
       "needsInterop": false
-    },
-    "typewriter-effect": {
-      "src": "../../../../../node_modules/typewriter-effect/dist/react.js",
-      "file": "typewriter-effect.js",
-      "fileHash": "a328fe9c",
-      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-5DXVJFEZ": {
-      "file": "chunk-5DXVJFEZ.js"
+    "chunk-EJZUQ4WJ": {
+      "file": "chunk-EJZUQ4WJ.js"
     },
-    "chunk-G52ISCNU": {
-      "file": "chunk-G52ISCNU.js"
+    "chunk-2LUOTJJP": {
+      "file": "chunk-2LUOTJJP.js"
     },
-    "chunk-T657WFHU": {
-      "file": "chunk-T657WFHU.js"
-    },
-    "chunk-OXCW2X5T": {
-      "file": "chunk-OXCW2X5T.js"
+    "chunk-KOXGXC6M": {
+      "file": "chunk-KOXGXC6M.js"
     }
   }
 }
