@@ -13,15 +13,20 @@ declare var Typewriter: any;
 })
 export class AppComponent implements OnInit, OnDestroy {
   private typewriter: any; // Adjust the type based on your application
-  items = ["app", "app2"]
-  async ngOnInit() {
 
+  async ngOnInit() {
+    this.typeByElement('app1');
+    this.typeByElement('app2');
   }
 
-  typeByElement(element:string){
-    var app = document.getElementById(element);
+  typeByElement(id: string){
+    const currentDiv = document.getElementById("container");
+    const newDiv = document.createElement(id);
+    newDiv.style.display = 'flex';
 
-    var typewriter = new Typewriter(app, {
+    currentDiv?.appendChild(newDiv);
+
+    const typewriter = new Typewriter(newDiv, {
       loop: true,
       delay: 75,
     });
